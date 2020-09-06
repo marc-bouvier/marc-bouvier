@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8"/>
-	</head>
 <style>
 	@media (prefers-color-scheme: dark) {
 		body {
@@ -81,7 +76,7 @@
 	}
 </style>
 
-<body class="wrapper">
+<div class="wrapper">
 
 	<header class="header">
 		<h1>Dashboard</h1>
@@ -164,9 +159,7 @@
 		contains information about its section such as who wrote it, links
 		to related documents, copyright data, and the like.
 	</footer>
-</body>
-
-</html>
+</div>
 ### Hi there 👋
 
 - 🔭 I’m currently working on ...

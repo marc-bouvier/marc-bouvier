@@ -1,3 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+	</head>
+<style>
+	@media (prefers-color-scheme: dark) {
+		body {
+			background-color: #242424;
+			color: #aaaaaa;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+
+		button {
+			background-color: rgb(26, 66, 24);
+			color: #aaaaaa;
+			border: none;
+			border-radius: 25%;
+			padding: 0.5em
+		}
+		a{
+			color:rgb(128, 130, 255)
+		}
+		a:visited{
+			color:rgb(128, 100, 139)
+		}
+
+		header,
+		nav,
+		section,
+		article,
+		aside,
+		footer {
+			border: solid #aaaaaa;
+			margin: 0.25em;
+			padding: 1em
+		}
+
+	}
+
+
+	.wrapper {
+		display: grid;
+		grid-template-columns: 3fr 4fr 4fr 3fr;
+		/* grid-template-rows: 20% 30% 30% 20%;*/
+		grid-template-areas:
+			"header header header header"
+			"leftCol midTop midTop rightCol"
+			"leftCol midMid midMid rightCol"
+			"leftCol midBottom midBottom rightCol"
+			"footer footer footer footer";
+		grid-gap: 5px;
+	}
+
+	.header {
+		grid-area: header;
+	}
+
+	.leftCol {
+		grid-area: leftCol;
+	}
+
+	.rightCol {
+		grid-area: rightCol;
+	}
+
+	.midTop {
+		grid-area: midTop;
+	}
+
+	.midMid {
+		grid-area: midMid;
+	}
+
+	.midBottom {
+		grid-area: midBottom;
+	}
+
+	.footer {
+		grid-area: footer;
+	}
+</style>
+
+<body class="wrapper">
+
+	<header class="header">
+		<h1>Dashboard</h1>
+		Le but de cette page est de me permettre de savoir où j'en suis de
+		mes objectifs. Je souhaite pouvoir facilement entreprendre des
+		activités et les mettre en suspens. Avoir une vision "aérienne" me
+		permettra d'éviter de trop m'éparpiller et d'oublier des promesses.
+	</header>
+	<nav class="leftCol">
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+	</nav>
+	<section class="midTop">
+		<h2>Objectifs en cours</h2>
+		<article>
+			<h3>Passer à temps partiel</h3>
+		</article>
+		<article>
+			<h3>Monter un dossier Antigone</h3>
+			<p>
+				Cela me permettra de réfléchir en étant guidé par les 
+				éléments du dossier.
+			</p>
+			<ul>
+				<li>
+					<a 
+					href="https://docs.google.com/document/d/1jAXdASs2-B2ou90or7fIz0sfbmOhcf7I4VXwG_gvNig/edit"
+					target="_blank"
+					>
+					Dossier Antigone</a>
+				</li>
+			</ul>
+		</article>
+		<article>
+			<h3>Passer à temps partiel</h3>
+		</article>
+
+	</section>
+	<section class="midMid">
+		<h2>Inspiration</h2>
+		<p>
+			2 notes flagguées "inspiration"
+		</p>
+		<button>Random</button>
+	</section>
+	<section class="midBottom">
+		<h2>Random fun</h2>
+		<p>
+			Quelques trucs randoms venant des feeds / notes
+		</p>
+		<button>Random</button>
+	</section>
+	<div class="rightCol">
+		<aside>
+			<h2>Blogs</h2>
+			<p>
+				Quelques articles de mon blog au pif
+			</p>
+			<button>Random</button>
+		</aside>
+		<aside>
+			<h2>TCC</h2>
+			<ul>
+				<li>Liste de mes priorités</li>
+				<li>Actions en face des freins de mon projet
+					de carrière : </li>
+			</ul>
+		</aside>
+		<aside>
+			<h2>Blogs</h2>
+		</aside>
+	</div>
+
+	<footer class="footer">
+		The footer element represents a footer for its nearest ancestor
+		sectioning content or sectioning root element. A footer typically
+		contains information about its section such as who wrote it, links
+		to related documents, copyright data, and the like.
+	</footer>
+</body>
+
+</html>
 ### Hi there 👋
 
 - 🔭 I’m currently working on ...

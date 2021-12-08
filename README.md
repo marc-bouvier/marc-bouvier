@@ -8,7 +8,7 @@
 - 💬 Ask me about ... 
 -->
 - 📫 How to reach me: [baldir.fr](https://baldir.fr)
-- See my organizations : [baldir-fr](https://baldir-fr.github.io),  [marc-bouvier-katas](https://marc-bouvier-katas.github.io/)
+- 🏢 See my organizations : [baldir-fr](https://baldir-fr.github.io),  [marc-bouvier-katas](https://marc-bouvier-katas.github.io/)
 - 😄 Pronouns: he/him
 <!-- - ⚡ Fun fact: ...-->
 

@@ -2,6 +2,7 @@
 
 - 🔭 I’m currently working on Living Documentation
 - 🌱 I’m currently learning Kotlin, Asciidoc, web accessibility, green IT
+- 🤹‍♂️ I'm playing in my [sandbox](https://marc-bouvier.github.io/sandbox/)
 <!-- 
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...

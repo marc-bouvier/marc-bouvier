@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on Living Documentation
+- 🔭 I’m doing Technical Coaching with the [Samman Method](https://sammancoaching.org/)
 - 🌱 I’m currently learning Kotlin, Asciidoc, web accessibility, green IT
 - 🤹‍♂️ I'm playing in my [sandbox](https://marc-bouvier.github.io/sandbox/)
 - 📫 How to reach me: [baldir.fr](https://baldir.fr)
